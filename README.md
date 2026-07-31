@@ -4,7 +4,7 @@
 
 *A FastAPI-based REST API for managing personal expenses with validation, reporting, and interactive API documentation.*
 
-![Python](https://img.shields.io/badge/Python-3.13+-blue)
+![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST_API-green)
 ![Pytest](https://img.shields.io/badge/Tests-6_Passing-success)
 ![License](https://img.shields.io/badge/Status-Assessment_Project-orange)
@@ -26,10 +26,10 @@ Smart Expense Tracker API is a RESTful backend application built with **FastAPI*
 - 🔍 Filter expenses by category
 - 💰 Calculate total expenses
 - 📊 Calculate total by category
-- 📅 Monthly expense summary
 - ❌ Delete an expense
 - ✔️ Input validation using Pydantic
 - 📖 Interactive Swagger Documentation
+- 🌟 Bonus Feature: Monthly expense summary report
 - 🧪 Automated API testing
 
 ---
@@ -72,7 +72,8 @@ expense-tracker/
 ## ⚙️ Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/archanapujahari26/expense-tracker.git
+
 cd expense-tracker
 
 python -m venv venv

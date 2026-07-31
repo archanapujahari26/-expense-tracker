@@ -1,0 +1,93 @@
+[
+    {
+        "id": 0,
+        "title": "string",
+        "amount": 1.0,
+        "category": "string",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 0,
+        "title": "string",
+        "amount": 1.0,
+        "category": "string",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    },
+    {
+        "id": 101,
+        "title": "Book",
+        "amount": 500.0,
+        "category": "Education",
+        "date": "2026-07-31"
+    }
+]

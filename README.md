@@ -131,6 +131,12 @@ Expected Result
 | DELETE | /expenses/{expense_id} |
 
 ---
+## 📷 API Documentation
+
+After running the server, visit:
+
+- Swagger UI: http://127.0.0.1:8000/docs
+- ReDoc: http://127.0.0.1:8000/redoc
 
 ## 📷 API Preview
 
@@ -166,3 +172,7 @@ http://127.0.0.1:8000/redoc
 **Archana Pujahari**
 
 B.Tech – Computer Science & Engineering
+
+## 📄 License
+
+This project was developed as part of a Software Engineering assessment.

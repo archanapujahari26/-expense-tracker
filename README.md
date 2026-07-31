@@ -1,32 +1,47 @@
+<div align="center">
+
 # 💰 Smart Expense Tracker API
 
-A modern **RESTful Expense Tracker API** built with **FastAPI** that helps users manage personal expenses efficiently. The application supports creating, viewing, filtering, summarizing, and deleting expenses while storing data locally in a JSON file.
+*A FastAPI-based REST API for managing personal expenses with validation, reporting, and interactive API documentation.*
+
+![Python](https://img.shields.io/badge/Python-3.13+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-REST_API-green)
+![Pytest](https://img.shields.io/badge/Tests-6_Passing-success)
+![License](https://img.shields.io/badge/Status-Assessment_Project-orange)
+
+</div>
 
 ---
 
-## ✨ Features
+## 📌 Overview
 
-- ✅ Add a new expense
-- ✅ View all expenses
-- ✅ Filter expenses by category
-- ✅ Calculate total expenses
-- ✅ Calculate total expenses by category
-- ✅ Monthly expense summary
-- ✅ Delete an expense
-- ✅ Input validation using Pydantic
-- ✅ Interactive Swagger/OpenAPI documentation
-- ✅ Automated API testing with Pytest
+Smart Expense Tracker API is a RESTful backend application built with **FastAPI**. It enables users to manage expenses through a clean and well-documented API while storing data in a lightweight JSON file.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-| Technology | Purpose |
-|------------|---------|
-| Python 3 | Programming Language |
+- ➕ Add a new expense
+- 📋 View all expenses
+- 🔍 Filter expenses by category
+- 💰 Calculate total expenses
+- 📊 Calculate total by category
+- 📅 Monthly expense summary
+- ❌ Delete an expense
+- ✔️ Input validation using Pydantic
+- 📖 Interactive Swagger Documentation
+- 🧪 Automated API testing
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Used For |
+|------------|----------|
+| Python | Programming Language |
 | FastAPI | REST API Framework |
-| Uvicorn | ASGI Server |
 | Pydantic | Data Validation |
+| Uvicorn | ASGI Server |
 | Pytest | API Testing |
 
 ---
@@ -42,7 +57,6 @@ expense-tracker/
 ├── pytest.ini
 │
 ├── src/
-│   ├── __init__.py
 │   ├── main.py
 │   ├── routes.py
 │   ├── models.py
@@ -55,38 +69,20 @@ expense-tracker/
 
 ---
 
-## 🚀 Installation
-
-Clone the repository:
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/archanapujahari26/expense-tracker.git
+git clone <repository-url>
 cd expense-tracker
-```
 
-Create a virtual environment:
-
-```bash
 python -m venv venv
-```
 
-Activate it:
-
-### macOS / Linux
-
-```bash
+# macOS / Linux
 source venv/bin/activate
-```
 
-### Windows
-
-```bash
+# Windows
 venv\Scripts\activate
-```
 
-Install the required packages:
-
-```bash
 pip install -r requirements.txt
 ```
 
@@ -94,69 +90,73 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Application
 
-Start the FastAPI server:
-
 ```bash
 uvicorn src.main:app --reload
 ```
 
-Open the API documentation:
+Open your browser:
 
-- Swagger UI: http://127.0.0.1:8000/docs
-- ReDoc: http://127.0.0.1:8000/redoc
+```
+http://127.0.0.1:8000/docs
+```
 
 ---
 
 ## 🧪 Run Tests
 
-Execute all automated tests:
-
 ```bash
 python -m pytest
 ```
 
-Expected Output:
+Expected Result
 
-```text
-==================== 6 passed ====================
+```
+================== 6 passed ==================
 ```
 
 ---
 
-## 📌 API Endpoints
+## 📡 API Endpoints
 
-| Method | Endpoint | Description |
-|---------|----------|-------------|
-| GET | `/` | Home |
-| POST | `/expenses` | Add Expense |
-| GET | `/expenses` | View All Expenses |
-| GET | `/expenses/category/{category}` | Filter by Category |
-| GET | `/expenses/total` | Total Expenses |
-| GET | `/expenses/total/{category}` | Total by Category |
-| GET | `/expenses/monthly/{month}` | Monthly Expense Summary |
-| DELETE | `/expenses/{expense_id}` | Delete Expense |
-
----
-
-## 📖 API Documentation
-
-FastAPI automatically generates interactive API documentation.
-
-- Swagger UI → `/docs`
-- ReDoc → `/redoc`
+| Method | Endpoint |
+|---------|----------|
+| GET | / |
+| POST | /expenses |
+| GET | /expenses |
+| GET | /expenses/category/{category} |
+| GET | /expenses/total |
+| GET | /expenses/total/{category} |
+| GET | /expenses/monthly/{month} |
+| DELETE | /expenses/{expense_id} |
 
 ---
 
-## ✅ Testing
+## 📷 API Preview
 
-The project includes automated API tests using **Pytest** to verify:
+Swagger UI
 
-- Expense creation
-- Fetching all expenses
-- Category filtering
-- Total expense calculation
-- Monthly summary
-- Expense deletion
+```
+http://127.0.0.1:8000/docs
+```
+
+ReDoc
+
+```
+http://127.0.0.1:8000/redoc
+```
+
+---
+
+## ✨ Highlights
+
+- Modular project structure
+- RESTful API design
+- Interactive Swagger documentation
+- Pydantic validation
+- Proper HTTP status codes
+- Error handling
+- Automated testing
+- Clean, readable code
 
 ---
 
@@ -165,9 +165,3 @@ The project includes automated API tests using **Pytest** to verify:
 **Archana Pujahari**
 
 B.Tech – Computer Science & Engineering
-
----
-
-## 📄 License
-
-This project was developed as part of a software engineering assessment and is intended for educational and evaluation purposes.
